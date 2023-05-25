@@ -1,5 +1,6 @@
 import "./globals.css";
 import {type ReactNode} from "react";
+import {Analytics} from "@vercel/analytics/react";
 
 export const metadata = {
     title: "Pumptrack",
@@ -11,6 +12,7 @@ export default function RootLayout({children}: { children: ReactNode }) {
         <html lang="de">
         <body>
         <main>{children}</main>
+        <Analytics/>
         </body>
         </html>
     );
