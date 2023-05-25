@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {env} from "~/env.mjs";
 
 export default function Home() {
 
@@ -40,7 +41,7 @@ export default function Home() {
                                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
 
                                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                                        Du möchtest einen Pumptrack in der Stadt Zug? Wir auch!
+                                        Du möchtest einen Pumptrack in {env.SITE_CITY}? Wir auch!
                                     </h1>
                                     <p className="mt-6 text-lg leading-8 text-gray-600">
                                         Unterstütze unser Anliegen und werde Mitglied.
