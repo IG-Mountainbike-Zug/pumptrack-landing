@@ -185,7 +185,9 @@ export default function Home() {
                         <Image
                             className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
                             width={1587}
-                            height={1058}
+                            height={1000}
+                            quality={80}
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                             src="/DJI_0541.JPG"
                             alt=""
                         />
