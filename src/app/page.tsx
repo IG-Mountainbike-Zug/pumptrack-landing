@@ -4,27 +4,33 @@ import {env} from "~/env.mjs";
 const CallToAction = () => {
     return (
         <div className="bg-sky-700">
-            <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
-                <div className="mx-auto max-w-2xl">
+            <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
+
+                <div>
                     <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                         Gib deiner Begeisterung fürs Mountainbiken eine Stimme.
                         <br/>
                         Werde Mitglied bei der IG Mountainbike Zug!
                     </h2>
-                    <p className=" mt-6 max-w-xl text-lg leading-8 text-sky-200">
-                        Indem du dich bei uns im Verein engagierst, kannst du aktiv zur Verwirklichung dieses Projekts
-                        beitragen.
-                        Aber auch wenn du kein aktives Mitglied werden möchtest, kannst du uns trotzdem unterstützen!
-                        Werde Freimitglied und zeige damit deine Unterstützung für unsere Ziele. Als Freimitglied hast
-                        du keine weiteren Verpflichtungen, aber deine Stimme trägt dazu bei, dass unsere Anliegen Gehör
-                        finden und wir gemeinsam eine starke Community aufbauen können.
-                    </p>
-                    <div className="mt-10 flex items-center justify-center gap-x-6">
+                    {/*<p className="text-lg text-sky-200">*/}
+                    {/*    Indem du dich bei uns im Verein engagierst, kannst du aktiv zur Verwirklichung dieses Projekts*/}
+                    {/*    beitragen.*/}
+                    {/*</p>*/}
+                    {/*<p className="text-lg text-sky-200">*/}
+                    {/*    Oder werde Freimitglied und zeige damit deine Unterstützung für unsere Ziele! Als Freimitglied hast*/}
+                    {/*    du keine weiteren Verpflichtungen, aber deine Stimme trägt dazu bei, dass unsere Anliegen Gehör*/}
+                    {/*    finden und wir unsere Interessen vertreten können.*/}
+                    {/*</p>*/}
+                </div>
+
+
+                <div>
+                    <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
                         <a
                             href="https://mountainbikezug.ch/Account/Register"
                             className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-sky-600 shadow-sm hover:bg-sky-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                         >
-                            Mitglied werden!
+                            Mitglied&nbsp;werden!
                         </a>
                     </div>
                 </div>
@@ -120,22 +126,18 @@ export default function Home() {
                                         Pumptracks - das sind speziell gestaltete Strecken, die das Herz eines jeden
                                         Rollsport-Enthusiasten höher schlagen lassen. Sie bieten eine Mischung aus
                                         Geschwindigkeit, Geschicklichkeit und Spass für Biker, Trottinets, Inline
-                                        Skates,
-                                        Skateboards, Velos und vieles mehr. Aber was genau ist ein Pumptrack und warum
-                                        setzen wir uns dafür ein?
+                                        Skates, Skateboards, Velos und vieles mehr. Aber was genau ist ein Pumptrack und
+                                        warum setzen wir uns dafür ein?
                                     </p>
 
                                     <p className="mt-6">
                                         Ein Pumptrack ist eine asphaltierte oder aus Erde und Kies gebaute Strecke mit
-                                        einer
-                                        Reihe von Wellen und Kurven. Durch geschicktes Einsetzen von Körperbewegungen,
-                                        dem
-                                        sogenannten "Pumpen", können Fahrer ohne Pedaleinsatz Geschwindigkeit aufbauen
-                                        und
-                                        so ein einzigartiges Fahrerlebnis geniessen. Pumptracks sind nicht nur für
-                                        Mountainbiker geeignet, sondern bieten auch anderen Rollsportarten eine ideale
-                                        Umgebung, um ihre Fähigkeiten zu verbessern und sich auszutoben.
-                                    </p>
+                                        einer Reihe von Wellen und Kurven. Durch geschicktes Einsetzen von
+                                        Körperbewegungen, dem sogenannten "Pumpen", können Fahrer ohne Pedaleinsatz
+                                        Geschwindigkeit aufbauen und so ein einzigartiges Fahrerlebnis geniessen.
+                                        Pumptracks sind nicht nur für Mountainbiker geeignet, sondern bieten auch
+                                        anderen Rollsportarten eine ideale Umgebung, um ihre Fähigkeiten zu verbessern
+                                        und sich auszutoben. </p>
 
                                     <p className="mt-6">
                                         Wir sind stolz darauf, bereits einen erfolgreichen Pumptrack in Cham realisiert
@@ -149,31 +151,25 @@ export default function Home() {
                                 <div>
                                     <p>
                                         Die IG Mountainbike Zug setzt sich leidenschaftlich dafür ein, auch
-                                        in {env.SITE_CITY}
-                                        einen solchen Pumptrack zu errichten. Wir glauben daran,
-                                        dass {env.SITE_CITY} das Potenzial
-                                        hat,
-                                        zu einem herausragenden Ort für alle Rollsportarten zu werden, und wir möchten
-                                        diesen Traum verwirklichen.
-                                    </p>
+                                        in {env.SITE_CITY} einen solchen Pumptrack zu errichten. Wir glauben daran,
+                                        dass {env.SITE_CITY} das Potenzial hat, zu einem herausragenden Ort für alle
+                                        Rollsportarten zu werden, und wir möchten diesen Traum verwirklichen. </p>
 
                                     <p className="mt-6">
                                         Indem du dich bei uns im Verein engagierst, kannst du aktiv zur Verwirklichung
                                         dieses Projekts beitragen. Als Mitglied der IG Mountainbike Zug hast du die
                                         Möglichkeit, bei der Planung und Umsetzung des Pumptracks mitzuwirken. Du kannst
                                         Ideen einbringen, an Veranstaltungen teilnehmen und dich mit anderen
-                                        begeisterten
-                                        Rollsportlern vernetzen. Zusammen können wir einen Ort schaffen, der die
-                                        Rollsport-Community in {env.SITE_CITY} stärkt und wachsen lässt.
+                                        begeisterten Rollsportlern vernetzen. Zusammen können wir einen Ort schaffen,
+                                        der die Rollsport-Community in {env.SITE_CITY} stärkt und wachsen lässt.
                                     </p>
 
                                     <p className="mt-6">
                                         Aber auch wenn du kein aktives Mitglied werden möchtest, kannst du uns trotzdem
                                         unterstützen! Werde Freimitglied und zeige damit deine Unterstützung für unsere
                                         Ziele. Als Freimitglied hast du keine weiteren Verpflichtungen, aber deine
-                                        Stimme
-                                        trägt dazu bei, dass unsere Anliegen Gehör finden und wir gemeinsam eine starke
-                                        Community aufbauen können.
+                                        Stimme trägt dazu bei, dass unsere Anliegen Gehör finden und wir gemeinsam eine
+                                        starke Community aufbauen können.
                                     </p>
 
                                     <p className="mt-6">
@@ -187,7 +183,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                {/*<CallToAction/>*/}
+                <CallToAction/>
             </div>
         </>
     );
