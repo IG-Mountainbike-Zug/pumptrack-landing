@@ -172,10 +172,10 @@ export default function Home() {
                                         >
                                             Mitglied werden!
                                         </Link>
-                                        <Link href="#more-info"
+                                        <a href="#more-info"
                                               className="text-sm font-semibold leading-6 text-gray-900">
                                             Mehr erfahren <span aria-hidden="true">→</span>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
