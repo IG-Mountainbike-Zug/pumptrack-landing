@@ -56,8 +56,8 @@ const Content = () => {
                             <p>
                                 Pumptracks - das sind speziell gestaltete Strecken, die das Herz eines jeden
                                 Rollsport-Enthusiasten höher schlagen lassen. Sie bieten eine Mischung aus
-                                Geschwindigkeit, Geschicklichkeit und Spass für Biker, Trottinets, Inline
-                                Skates, Skateboards, Velos und vieles mehr. Aber was genau ist ein Pumptrack und
+                                Geschwindigkeit, Geschicklichkeit und Spass für Biker, Trottinettes, Inline
+                                Skates, Skateboards und vieles mehr. Aber was genau ist ein Pumptrack und
                                 warum setzen wir uns dafür ein?
                             </p>
 
