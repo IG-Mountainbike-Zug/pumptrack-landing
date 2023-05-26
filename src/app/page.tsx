@@ -133,7 +133,7 @@ export default function Home() {
                                     <p className="mt-6">
                                         Ein Pumptrack ist eine asphaltierte oder aus Erde und Kies gebaute Strecke mit
                                         einer Reihe von Wellen und Kurven. Durch geschicktes Einsetzen von
-                                        Körperbewegungen, dem sogenannten "Pumpen", können Fahrer ohne Pedaleinsatz
+                                        Körperbewegungen, dem sogenannten &quot;Pumpen&quot;, können Fahrer ohne Pedaleinsatz
                                         Geschwindigkeit aufbauen und so ein einzigartiges Fahrerlebnis geniessen.
                                         Pumptracks sind nicht nur für Mountainbiker geeignet, sondern bieten auch
                                         anderen Rollsportarten eine ideale Umgebung, um ihre Fähigkeiten zu verbessern
