@@ -56,4 +56,4 @@ submit a pull request. For major changes, please open an issue first to discuss 
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](LICENSE).
