@@ -82,7 +82,7 @@ const Footer = () => {
 export default function RootLayout({children}: { children: ReactNode }) {
     return (
         <html lang="de">
-        <body>
+        <body className="scroll-smooth">
         <main>{children}</main>
         <Footer/>
         <Analytics/>
